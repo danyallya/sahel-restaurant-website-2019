@@ -1,0 +1,109 @@
+/* gallery */
+.yith_magnifier_gallery {
+    margin: 0;
+    padding: 0;
+}
+
+.yith_magnifier_gallery li {
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.yith_magnifier_gallery li.last {
+    margin-right: 0;
+}
+
+.yith_magnifier_gallery li a {
+    width: 100% !important;
+    display: block;
+    margin-top: 10px;
+    height: auto !important;
+}
+
+/* next/prev */
+.slider .thumbnails {
+    position: relative;
+}
+
+#slider-prev,
+#slider-next {
+    /*display: none !important;*/
+    /*cursor: pointer;*/
+    /*width: 27px;*/
+    /*height: 26px;*/
+    /*background: url('../images/slider-arrow.png') no-repeat left center;*/
+    /*position: absolute;*/
+    /*top: 48%;*/
+    /*margin-top: -2px;*/
+}
+
+#slider-prev {
+    /*background-position: left center;*/
+    /*left: 0px;*/
+}
+
+#slider-next {
+    /*background-position: right center;*/
+    /*right: 0px;*/
+}
+
+#slider-prev,
+#slider-next {
+    /*display: block !important;*/
+}
+
+span.onsale {
+    z-index: 10000
+}
+
+div.pp_woocommerce a.pp_expand {
+    display: inline;
+    bottom: 10px;
+    top: initial;
+    left: 10px;
+}
+
+.arrow-right {
+    height: 36px;
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    border-radius: 50%;
+    top: 139px;
+    cursor: pointer;
+    width: 36px;
+    /* margin-right: 71px; */
+    /*right: 109px;*/
+    box-shadow: 0px 0px 5px 0px;
+    right: 2px;
+    background-position: 0 0;
+    -webkit-transform: translateY(-100%) rotate(90deg);
+    -moz-transform: translateY(-100%) rotate(90deg);
+    /* -moz-transform-origin: right top; */
+    -ms-transform: translateY(-100%) rotate(90deg);
+    -o-transform: translateY(-100%) rotate(90deg);
+    transform: translateY(-100%) rotate(90deg);
+}
+
+.arrow-left {
+    height: 36px;
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    border-radius: 50%;
+    top: 139px;
+    cursor: pointer;
+    width: 36px;
+    /* margin-right: 71px; */
+    left: 2px;
+    box-shadow: 0px 0px 6px 0px;
+    /* right: 32px; */
+    background-position: 0 0;
+    -webkit-transform: translateY(-100%) rotate(-90deg);
+    -moz-transform: translateY(-100%) rotate(-90deg);
+    /* -moz-transform-origin: right top; */
+    -ms-transform: translateY(-100%) rotate(-90deg);
+    -o-transform: translateY(-100%) rotate(-90deg);
+    transform: translateY(-100%) rotate(-90deg);
+}
